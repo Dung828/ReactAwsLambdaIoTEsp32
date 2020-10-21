@@ -25,8 +25,8 @@ long cM = 0;
 int lostConnection = 0;
 
 // Wifi credentials
-const char* WIFI_SSID = "macs1";
-const char* WIFI_PASSWORD = "30061980";
+const char* WIFI_SSID = "xxxx";
+const char* WIFI_PASSWORD = "xxxxx";
 
 #define THINGN "nodemcu32s"
 //const char* deviceName = THINGN;
@@ -44,7 +44,7 @@ const char* WIFI_PASSWORD = "30061980";
 //#define S_STATE_DOC_LED_ON  """{"state" : {"desired" : {"LED" : "ON"}}}"""
 //#define S_STATE_DOC_LED_OFF """{"state" : {"desired" : {"LED" : "OFF"}}}"""
 // The MQTTT endpoint for the device (unique for each AWS account but shared amongst devices within the account)
-#define IOT_ENDPOINT "atzpfe6u4qxeh-ats.iot.us-east-1.amazonaws.com"
+#define IOT_ENDPOINT "xxxxxxxxxxxxxxxxxxxxxx"
 
 //-----------------------------------------------------------------------------
 WiFiClientSecure net = WiFiClientSecure();
