@@ -3,9 +3,9 @@ import ReactDOM from "react-dom";
 import { Redirect } from "react-router-dom";
 
 let AWS = require("aws-sdk");
-AWS.config.region = "us-east-1";
+AWS.config.region = "xxxxx";
 AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-  IdentityPoolId: "us-east-1:02287482-d79e-41df-a06d-53e7805cfc30",
+  IdentityPoolId: "xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   // Federated Identities - idpool
 });
 let lambda = new AWS.Lambda();
