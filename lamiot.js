@@ -3,7 +3,7 @@ let AWS = require('aws-sdk');
 
 let config = {
   "thingName": 'nodemcu32s',
-  "endpointAddress": "atzpfe6u4qxeh-ats.iot.us-east-1.amazonaws.com"
+  "endpointAddress": "xxxxxxxxxxxxxxxxxxxxxx"
 }
 let iotdata = new AWS.IotData({ endpoint: config.endpointAddress });
 
